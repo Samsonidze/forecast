@@ -148,15 +148,20 @@ body {
     }
 
     .details {
-        gap: 5px; 
+        gap: 20%;
+        flex-wrap: nowrap;
     }
 
     .search input {
         padding: 10px;
         font-size: 14px;
     }
+    .col {
+        flex: 1 1 auto; 
+        /* min-width: 110px; */
+    }
 
     .humidity, .wind {
-        font-size: 20px;
+        font-size: 15px;
     }
 }
